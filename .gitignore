@@ -1,0 +1,30 @@
+# Ignore the dataset folder (images are large, publicly available on Kaggle)
+data/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folder
+pneumio-env/
+
+# Ignore model checkpoints (weights saved during training, usually large)
+models/
+
+# Ignore log files (training logs, TensorBoard logs, etc.)
+*.log
+logs/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore Python bytecode compiled files
+*.pyc
